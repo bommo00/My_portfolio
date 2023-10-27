@@ -1,0 +1,16 @@
+#basic{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #212931;
+        background-image: url("../../images/bg.jpg");
+        background-size: auto,								auto,														100% auto;
+        background-position: top center,								center,														center;
+        background-repeat: no-repeat,								no-repeat,													no-repeat;
+        background-attachment: fixed,								fixed,														scroll;
+        z-index: -1;
+		}
+
+
+
