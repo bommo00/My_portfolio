@@ -2,26 +2,63 @@
 
 <!-- Page Header-->
 <body class="is-preload">
+			<div class="container my-5">
+			  <div class="p-5 text-center bg-body-tertiary rounded-3">
+				<svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100"><use xlink:href="#bootstrap"></use></svg>
+				<h1 class="text-body-emphasis">Jumbotron with icon</h1>
+				<p class="col-lg-8 mx-auto fs-5 text-muted">
+				  This is a custom jumbotron featuring an SVG image at the top, some longer text that wraps early thanks to a responsive <code>.col-*</code> class, and a customized call to action.
+				</p>
+				<div class="d-inline-flex gap-2 mb-5">
+				  <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
+					Call to action
+					<svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"></use></svg>
+				  </button>
+				  <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+					Secondary link
+				  </button>
+				</div>
+			  </div>
+			</div>
+			<nav class="navbar navbar-expand-md bg-body-tertiary sticky-top border-bottom" data-bs-theme="Light">
+			  <div class="container">
+				<a class="navbar-brand d-md-none" href="#">
+				  <svg class="bi" width="24" height="24"><use xlink:href="#aperture"></use></svg>
+				  Aperture
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="#offcanvas" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="offcanvas offcanvas-end" tabindex="-1" id="#offcanvas" aria-labelledby="#offcanvasLabel">
+				  <div class="offcanvas-header">
+					<h5 class="offcanvas-title" id="#offcanvasLabel">Aperture</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				  </div>
+				  <div class="offcanvas-body">
+					<ul class="navbar-nav flex-grow-1 justify-content-between">
+					  <li class="nav-item"><a class="nav-link" href="#">
+						<svg class="bi" width="24" height="24"><use xlink:href="#aperture"></use></svg>
+					  </a></li>
+					  <li class="nav-item"><a class="nav-link" href="#">Tour</a></li>
+					  <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+					  <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+					  <li class="nav-item"><a class="nav-link" href="#">Enterprise</a></li>
+					  <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+					  <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+					  <li class="nav-item"><a class="nav-link" href="#">
+						<svg class="bi" width="24" height="24"><use xlink:href="#cart"></use></svg>
+					  </a></li>
+					</ul>
+				  </div>
+				</div>
+			  </div>
+			</nav>
 
 		<!-- STABLE -->
-			<div id="wrapper">
-				<header id="header">
-					<a href="{{url_for('home')}}" class="logo">ILLUSTRATION</a>
-				</header>
+			<div id="wrapper"  class="container">
 
 
-				<!-- Nav -->
-				<nav id="nav">
-					<ul class="links">
-						<li><a href="{{url_for('home')}}">Welcome</a></li>
-						<li><a href="{{url_for('gallery')}}">Gallery</a></li>
-						<li  class="active"><a href="{{url_for('self_intro')}}">About Me</a></li>
-						<li><a href="{{url_for('prize')}}">Commission Info</a></li>
-					</ul>
-					<ul class="icons">
-						<li><a href="https://github.com/bommo00" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-					</ul>
-				</nav>
+
 				<!-- Main -->
 				<div id="main">
 
@@ -33,6 +70,42 @@
 								ipsum faucibus</a></h2>
 							</header>
 							<a href="#" class="image fit"><img src="./static/images/pic02.jpg" alt="" /></a>
+							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+							<ul class="actions special">
+								<li><a href="#" class="button">Full Story</a></li>
+							</ul>
+						</article>
+						<article>
+							<header>
+								<span class="date">April 22, 2017</span>
+								<h2><a href="#">Primis eget<br />
+								imperdiet lorem</a></h2>
+							</header>
+							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+							<ul class="actions special">
+								<li><a href="#" class="button">Full Story</a></li>
+							</ul>
+						</article>
+						<article>
+							<header>
+								<span class="date">April 22, 2017</span>
+								<h2><a href="#">Primis eget<br />
+								imperdiet lorem</a></h2>
+							</header>
+							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+							<ul class="actions special">
+								<li><a href="#" class="button">Full Story</a></li>
+							</ul>
+						</article>
+						<article>
+							<header>
+								<span class="date">April 22, 2017</span>
+								<h2><a href="#">Primis eget<br />
+								imperdiet lorem</a></h2>
+							</header>
+							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
 							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
 							<ul class="actions special">
 								<li><a href="#" class="button">Full Story</a></li>
