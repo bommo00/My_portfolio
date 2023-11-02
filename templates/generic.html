@@ -1,27 +1,6 @@
 {% include "header.html" %}
 
-<!-- Page Header-->
-<body class="is-preload" >
 
-		<!-- STABLE -->
-			<div id="wrapper">
-				<header id="header">
-					<a href="{{url_for('home')}}" class="logo">ILLUSTRATION</a>
-				</header>
-
-
-				<!-- Nav -->
-				<nav id="nav">
-					<ul class="links">
-						<li><a href="{{url_for('home')}}">Welcome</a></li>
-						<li class="active"><a href="{{url_for('gallery')}}">Gallery</a></li>
-						<li><a href="{{url_for('self_intro')}}">About Me</a></li>
-						<li><a href="{{url_for('prize')}}">Commission Info</a></li>
-					</ul>
-					<ul class="icons">
-						<li><a href="https://github.com/bommo00" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-					</ul>
-				</nav>
 				<!-- Main -->
 				<div id="main">
 
@@ -135,6 +114,4 @@
 					</section>
 
 				</div>
-				{% include "footer.html" %}
-			</div>
-</body>
+{% include "footer.html" %}

@@ -1,49 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-
-	<head>
-		<title>Just an artwork portfolio :)</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="./static/assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="./static/assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
-
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Art work<br />
-						Portfolio</h1>
-						<p>Art is the object of feeling, and the subject of nature.   -By S.K.langer</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
-
-				<!-- Header -->
-					<header id="header">
-						<a href="{{url_for('home')}}" class="logo">ILLUSTRATION</a>
-					</header>
-
-				<nav id="nav">
-					<ul class="links">
-						<li class="active"><a href="{{url_for('home')}}">Welcome</a></li>
-						<li><a href="{{url_for('gallery')}}">Gallery</a></li>
-						<li><a href="{{url_for('self_intro')}}">About Me</a></li>
-						<li><a href="{{url_for('prize')}}">Commission Info</a></li>
-					</ul>
-					<ul class="icons">
-						<li><a href="https://github.com/bommo00" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-					</ul>
-				</nav>
+{% include "header.html" %}
 
 				<!-- Main -->
 				<div id="main">
@@ -123,24 +78,4 @@
                 </section>
             </footer>
 
-        <!-- Copyright -->
-            <div id="copyright">
-                <ul><li>&copy; 2023. All rights reserved.</li><li>Web Page Template: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-            </div>
-        </div>
-
-        <!-- Scripts -->
-            <script src="./static/assets/js/jquery.min.js"></script>
-            <script src="./static/assets/js/jquery.scrollex.min.js"></script>
-            <script src="./static/assets/js/jquery.scrolly.min.js"></script>
-            <script src="./static/assets/js/browser.min.js"></script>
-            <script src="./static/assets/js/breakpoints.min.js"></script>
-            <script src="./static/assets/js/util.js"></script>
-            <script src="./static/assets/js/main.js"></script>
-	</body>
-</html>
-
-<!-- Page Header-->
-		<!-- Nav -->
-
-	<!-- Footer -->
+{% include "footer.html" %}
