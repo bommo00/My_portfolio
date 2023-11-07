@@ -1,177 +1,227 @@
 {% include "header.html" %}
-				<div class="container px-4 py-5  rounded" style="background-color: rgba(255,255,255,0.97);">
-					<h2 class="pb-2 border-bottom">Custom cards</h2>
-					<div class="col">
-					  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-						<div class="col p-4 d-flex flex-column position-static">
-						  <strong class="d-inline-block mb-2 text-primary-emphasis">World</strong>
-						  <h3 class="mb-0">Featured post</h3>
-						  <div class="mb-1 text-body-secondary">Nov 12</div>
-						  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-						  <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
-							Continue reading
-							<svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-						  </a>
+				<div class="container px-4 py-5  rounded" id="custom-cards" style="background-color: rgba(255,255,255,0.97);">
+
+					<h2 class="pb-2 border-bottom">Programming project</h2>
+
+					<div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+					  <div class="col">
+						<div class="card card-cover h-8 overflow-hidden text-bg-dark rounded-4 shadow" style="background-image: url('../static/images/045b.png');">
+						  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+							<h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Portfolio Webpage</h3>
+							<ul class="d-flex list-unstyled mt-auto">
+							  <li class="me-auto">
+								<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-browser-chrome" viewBox="0 0 16 16">
+								  <path fill-rule="evenodd" d="M16 8a8.001 8.001 0 0 1-7.022 7.94l1.902-7.098a2.995 2.995 0 0 0 .05-1.492A2.977 2.977 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8ZM0 8a8 8 0 0 0 7.927 8l1.426-5.321a2.978 2.978 0 0 1-.723.255 2.979 2.979 0 0 1-1.743-.147 2.986 2.986 0 0 1-1.043-.7L.633 4.876A7.975 7.975 0 0 0 0 8Zm5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a2.979 2.979 0 0 0-1.252.243 2.987 2.987 0 0 0-1.81 2.59ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+								</svg>
+							  </li>
+							  <li class="d-flex align-items-center me-3">
+
+								<small>Completed</small>
+							  </li>
+							  <li class="d-flex align-items-center">
+								<svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+								<small>2023.11.06</small>
+							  </li>
+							</ul>
+						  </div>
 						</div>
-						<div class="col-auto d-none d-lg-block">
-						  <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-						</div>
+						  <br><br>
+						  <div class="list-group">
+							  <a class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+								<h3>◻️</h3>
+							  <div class="d-flex gap-2 w-100 justify-content-between">
+								<div>
+								  <h6 class="mb-0">New Function</h6>
+								  <p class="mb-0 opacity-75">To achieve the interaction between Carousel and Collapse.</p>
+								</div>
+								<small class="opacity-50 text-nowrap">2023.11</small>
+							  </div>
+							</a>
+
+							<a class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+								<h3>☑️</h3>
+							  <div class="d-flex gap-2 w-100 justify-content-between">
+								<div>
+								  <h6 class="mb-0">Structure Completed</h6>
+								  <p class="mb-0 opacity-75">Achieved the basic functions! Cheers!</p>
+								</div>
+								<small class="opacity-50 text-nowrap">2023.10</small>
+							  </div>
+							</a>
+							<a class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+								<h3>☑️</h3>
+							  <div class="d-flex gap-2 w-100 justify-content-between">
+								<div>
+								  <h6 class="mb-0">Data</h6>
+								  <p class="mb-0 opacity-75">Updated all the data to build up this website as a self-introduction, changed the size of each material.</p>
+								</div>
+								<small class="opacity-50 text-nowrap">2023.10</small>
+							  </div>
+							</a>
+						  </div>
 					  </div>
-					</div>
-					<div class="col">
-					  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-						<div class="col p-4 d-flex flex-column position-static">
-						  <strong class="d-inline-block mb-2 text-success-emphasis">Design</strong>
-						  <h3 class="mb-0">Post title</h3>
-						  <div class="mb-1 text-body-secondary">Nov 11</div>
-						  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-						  <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
-							Continue reading
-							<svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-						  </a>
+
+					  <div class="col">
+						<div class="card card-cover h-80 text-light rounded-4 shadow" style="background-image: url('../static/images/058b.png');">
+						  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+							<h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Watermark Tool</h3>
+							<ul class="d-flex list-unstyled mt-auto">
+							  <li class="me-auto">
+								<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-badge-cc-fill" viewBox="0 0 16 16">
+								  <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm3.027 4.002c-.83 0-1.319.642-1.319 1.753v.743c0 1.107.48 1.727 1.319 1.727.69 0 1.138-.435 1.186-1.05H7.36v.114c-.057 1.147-1.028 1.938-2.342 1.938-1.613 0-2.518-1.028-2.518-2.729v-.747C2.5 6.051 3.414 5 5.018 5c1.318 0 2.29.813 2.342 2v.11H6.213c-.048-.638-.505-1.108-1.186-1.108zm6.14 0c-.831 0-1.319.642-1.319 1.753v.743c0 1.107.48 1.727 1.318 1.727.69 0 1.139-.435 1.187-1.05H13.5v.114c-.057 1.147-1.028 1.938-2.342 1.938-1.613 0-2.518-1.028-2.518-2.729v-.747c0-1.7.914-2.751 2.518-2.751 1.318 0 2.29.813 2.342 2v.11h-1.147c-.048-.638-.505-1.108-1.187-1.108z"/>
+								</svg>
+							  </li>
+							  <li class="d-flex align-items-center me-3">
+								<svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+								<small>In process</small>
+							  </li>
+							  <li class="d-flex align-items-center">
+								<svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+								<small>2023.11.02</small>
+							  </li>
+							</ul>
+						  </div>
 						</div>
-						<div class="col-auto d-none d-lg-block">
-						  <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+						  <br><br>
+						  <div class="list-group">
+							  <a class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+								<h3>◻️</h3>
+							  <div class="d-flex gap-2 w-100 justify-content-between">
+								<div>
+								  <h6 class="mb-0">New Function</h6>
+								  <p class="mb-0 opacity-75">To achieve more functions like mass rename and other file processing functions.</p>
+								</div>
+								<small class="opacity-50 text-nowrap">2023.11</small>
+							  </div>
+							</a>
+
+							<a class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+								<h3>◻️</h3>
+							  <div class="d-flex gap-2 w-100 justify-content-between">
+								<div>
+								  <h6 class="mb-0">GUI Developing</h6>
+								  <p class="mb-0 opacity-75">Developing GUI by FLET (still learning...)</p>
+								</div>
+								<small class="opacity-50 text-nowrap">2023.11</small>
+							  </div>
+							</a>
+							<a class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+								<h3>☑️</h3>
+							  <div class="d-flex gap-2 w-100 justify-content-between">
+								<div>
+								  <h6 class="mb-0">Basic Function</h6>
+								  <p class="mb-0 opacity-75">Achieved the basic function of watermark-maker.</p>
+								</div>
+								<small class="opacity-50 text-nowrap">2023.10</small>
+							  </div>
+							</a>
+						  </div>
+					  </div>
+
+					  <div class="col">
+						<div class="card card-cover h-80 overflow-hidden text-light rounded-4 shadow" style="background-image: url('../static/images/022b.png');">
+						  <div class="d-flex flex-column h-80 p-5 pb-3 text-shadow-1">
+							<h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">To-do app with Gantt</h3>
+							<ul class="d-flex list-unstyled mt-auto">
+							  <li class="me-auto">
+								<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-calendar-range-fill" viewBox="0 0 16 16">
+								  <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 7V5H0v5h5a1 1 0 1 1 0 2H0v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9h-6a1 1 0 1 1 0-2h6z"/>
+								</svg>
+							  </li>
+							  <li class="d-flex align-items-center me-3">
+								<svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+								<small>In process</small>
+							  </li>
+							  <li class="d-flex align-items-center">
+								<svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+								<small>2023.10.30</small>
+							  </li>
+							</ul>
+						  </div>
 						</div>
+						  <br><br>
+						  <div class="list-group">
+							  <a class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+								<h3>◻️</h3>
+							  <div class="d-flex gap-2 w-100 justify-content-between">
+								<div>
+								  <h6 class="mb-0">Gantt</h6>
+								  <p class="mb-0 opacity-75">To learn and figure out how to create a Gantt by datetime data automatically.</p>
+								</div>
+								<small class="opacity-50 text-nowrap">in two weeks</small>
+							  </div>
+							</a>
+
+							<a class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+								<h3>◻️</h3>
+							  <div class="d-flex gap-2 w-100 justify-content-between">
+								<div>
+								  <h6 class="mb-0">GUI Developing</h6>
+								  <p class="mb-0 opacity-75">Developing GUI by FLET (still learning...)</p>
+								</div>
+								<small class="opacity-50 text-nowrap">2023.11</small>
+							  </div>
+							</a>
+							<a class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+								<h3>☑️</h3>
+							  <div class="d-flex gap-2 w-100 justify-content-between">
+								<div>
+								  <h6 class="mb-0">Basic Functions</h6>
+								  <p class="mb-0 opacity-75">Developed the basic framework of the to-do app.</p>
+								</div>
+								<small class="opacity-50 text-nowrap">2023.10</small>
+							  </div>
+							</a>
+						  </div>
 					  </div>
 					</div>
 				</div>
 				<br><br>
-				<div class="container px-4 py-5  rounded" id="custom-cards" style="background-color: rgba(255,255,255,0.97);">
-					<h2 class="pb-2 border-bottom">Custom cards</h2>
+				<div class="container px-4 py-5  rounded" style="background-color: rgba(255,255,255,0.97);">
+					<h2 class="pb-2 border-bottom">About me</h2>
+					<div class="col">
+					  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+						<div class="col p-4 d-flex flex-column position-static">
+						  <strong class="d-inline-block mb-2 text-primary-emphasis">In Kyoto University</strong>
+						  <h3 class="mb-0">First-Year Master's student</h3>
 
-					<div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-					  <div class="col">
-						<div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
-						  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-							<h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
-							<ul class="d-flex list-unstyled mt-auto">
-							  <li class="me-auto">
-								<img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-							  </li>
-							  <li class="d-flex align-items-center me-3">
-								<svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-								<small>Earth</small>
-							  </li>
-							  <li class="d-flex align-items-center">
-								<svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-								<small>3d</small>
-							  </li>
-							</ul>
-						  </div>
+						  <p class="card-text mb-auto"><br>Hi, I'm a M1 student from Kyoto university, and my hobbies are programming, drawing and dancing!<br>Hope you enjoy this website, and if you have any advice, please leave a message! ⬇️</p>
+
 						</div>
-					  </div>
-
-					  <div class="col">
-						<div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-						  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-							<h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
-							<ul class="d-flex list-unstyled mt-auto">
-							  <li class="me-auto">
-								<img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-							  </li>
-							  <li class="d-flex align-items-center me-3">
-								<svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-								<small>Pakistan</small>
-							  </li>
-							  <li class="d-flex align-items-center">
-								<svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-								<small>4d</small>
-							  </li>
-							</ul>
-						  </div>
-						</div>
-					  </div>
-
-					  <div class="col">
-						<div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
-						  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-							<h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
-							<ul class="d-flex list-unstyled mt-auto">
-							  <li class="me-auto">
-								<img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-							  </li>
-							  <li class="d-flex align-items-center me-3">
-								<svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-								<small>California</small>
-							  </li>
-							  <li class="d-flex align-items-center">
-								<svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-								<small>5d</small>
-							  </li>
-							</ul>
-						  </div>
+						<div class="col-auto d-none d-lg-block" >
+						  <img class="bd-placeholder-img" width="270" height="250" src="../static/images/037.jpg" role="img" >
 						</div>
 					  </div>
 					</div>
-					<div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center bg-body-tertiary">
-					  <div class="list-group">
-						<a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-						  <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
-						  <div class="d-flex gap-2 w-100 justify-content-between">
-							<div>
-							  <h6 class="mb-0">List group item heading</h6>
-							  <p class="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
-							</div>
-							<small class="opacity-50 text-nowrap">now</small>
-						  </div>
-						</a>
-						<a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-						  <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
-						  <div class="d-flex gap-2 w-100 justify-content-between">
-							<div>
-							  <h6 class="mb-0">Another title here</h6>
-							  <p class="mb-0 opacity-75">Some placeholder content in a paragraph that goes a little longer so it wraps to a new line.</p>
-							</div>
-							<small class="opacity-50 text-nowrap">3d</small>
-						  </div>
-						</a>
-						<a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-						  <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
-						  <div class="d-flex gap-2 w-100 justify-content-between">
-							<div>
-							  <h6 class="mb-0">Third heading</h6>
-							  <p class="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
-							</div>
-							<small class="opacity-50 text-nowrap">1w</small>
-						  </div>
-						</a>
-					  </div>
-						<div class="list-group">
-							<a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-							  <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
-							  <div class="d-flex gap-2 w-100 justify-content-between">
-								<div>
-								  <h6 class="mb-0">List group item heading</h6>
-								  <p class="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
-								</div>
-								<small class="opacity-50 text-nowrap">now</small>
-							  </div>
-							</a>
-							<a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-							  <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
-							  <div class="d-flex gap-2 w-100 justify-content-between">
-								<div>
-								  <h6 class="mb-0">Another title here</h6>
-								  <p class="mb-0 opacity-75">Some placeholder content in a paragraph that goes a little longer so it wraps to a new line.</p>
-								</div>
-								<small class="opacity-50 text-nowrap">3d</small>
-							  </div>
-							</a>
-							<a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-							  <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
-							  <div class="d-flex gap-2 w-100 justify-content-between">
-								<div>
-								  <h6 class="mb-0">Third heading</h6>
-								  <p class="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
-								</div>
-								<small class="opacity-50 text-nowrap">1w</small>
-							  </div>
-							</a>
-					    </div>
+					<form
+						id="contactForm"
+						name="sentMessage"
+						action="{{ url_for('self_intro') }}"
+						method="post"
+					  >
+						<div class="col mb-3">
+							  <label for="FormControlInput1" class="form-label" >Your Email address</label>
+							  <input type="email" class="form-control" id="FormControlInput1" name="email_address" placeholder="name@example.com">
+						</div>
+						<div class="mb-3">
+						  <label for="FormControlTextarea1" class="form-label">Comment</label>
+						  <textarea class="form-control" id="FormControlTextarea1" name="comment" rows="3"></textarea>
+						</div>
+						<div class="row px-2">
+							<div class="col-11">
 
-					</div>
+							</div>
+
+							  <div class="col-1 mb-3">
+								<button type="submit" class="btn btn-primary mb-3 col-md-offset-5">Send</button>
+							  </div>
+
+						</div>
+					</form>
+
 				</div>
+
+
 			</div>
 
 

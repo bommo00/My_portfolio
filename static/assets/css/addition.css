@@ -28,10 +28,28 @@
     color: white
   }
 
-.carousel-item{
-    height: 600px;
+.carousel .carousel-item {
+    max-height:550px;
+}
+
+.carousel-item img {
+    object-fit:cover;
+    max-height:500px;
 }
 
 .img-fluid{
     height: 600px;
 }
+
+.thumbnail{
+    width:70%;
+    height:70%;
+  }
+
+
+
+
+h5{
+    color: white;
+}
+
