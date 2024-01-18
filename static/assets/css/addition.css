@@ -5,16 +5,16 @@
         height: 100%;
         background-color: #212931;
         background-image: url("../../images/allbg.jpg");
-        background-size: 100%,								100%,														100%;
+        background-size: cover;
         background-position: top center,								center,														center;
         background-repeat: no-repeat,								no-repeat,													no-repeat;
-        background-attachment: fixed,								fixed,														scroll;
+        background-attachment: fixed;
         z-index: -1;
 		}
 
 #banner{
         background-image: url("../../images/bg.jpg");
-        background-size: 100%,								500%,														700%;
+        background-size: 150%;
         background-position: 50% 25%;
         background-repeat: repeat,								no-repeat,													no-repeat;
         background-attachment: fixed,								fixed,														scroll;
@@ -44,8 +44,14 @@
 .thumbnail{
     width:70%;
     height:70%;
+    position:center;
   }
 
+.modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
